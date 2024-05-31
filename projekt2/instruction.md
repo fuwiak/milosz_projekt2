@@ -22,7 +22,7 @@ You can run this script in two ways:
 
 To start the interactive menu, use:
 ```bash
-python security_script.py menu
+python main2.py menu
 ```
 
 ### Running Specific Functions with Command-Line Arguments
@@ -30,88 +30,88 @@ python security_script.py menu
 #### 1. Run a Port Scan
 Scans ports from 1 to 1024 on the target IP address.
 ```bash
-python security_script.py port_scan <target_ip>
+python main2.py port_scan <target_ip>
 ```
 **Example:**
 ```bash
-python security_script.py port_scan 192.168.1.1
+python main2.py port_scan 192.168.1.1
 ```
 
 #### 2. Ping a Website or PC
 Pings the specified target to check if it is reachable.
 ```bash
-python security_script.py ping <target_ip_or_url>
+python main2.py ping <target_ip_or_url>
 ```
 **Example:**
 ```bash
-python security_script.py ping google.com
+python main2.py ping wp.pl
 ```
 
 #### 3. Enable Packet Sniffing
 Enables packet sniffing on the specified network interface.
 ```bash
-python security_script.py sniff <interface>
+python main2.py sniff <interface>
 ```
 **Example:**
 ```bash
-python security_script.py sniff eth0
+python main2.py sniff eth0
 ```
 
 #### 4. Run Nmap
 Runs Nmap on the specified target IP address.
 ```bash
-python security_script.py nmap <target_ip>
+python main2.py nmap <target_ip>
 ```
 **Example:**
 ```bash
-python security_script.py nmap 192.168.1.1
+python main2.py nmap 192.168.1.1
 ```
 
 #### 5. Launch MSF Console
 Launches the Metasploit Framework console.
 ```bash
-python security_script.py msf
+python main2.py msf
 ```
 
 #### 6. Install Recommended Security Tools
 Installs recommended security tools like Nmap, Wireshark, and Metasploit.
 ```bash
-python security_script.py install_tools
+python main2.py install_tools
 ```
 
 #### 7. Run Any Installed Security Program
 Runs any installed security program specified by the user.
 ```bash
-python security_script.py run_program <program_name>
+python main2.py run_program <program_name>
 ```
 **Example:**
 ```bash
-python security_script.py run_program nmap
+python main2.py run_program nmap
 ```
 
 #### 8. Run SCAPY
 Runs the Scapy program for packet manipulation.
 ```bash
-python security_script.py scapy
+python main2.py scapy
 ```
 
 #### 9. Shutdown or Restart Device
 Shuts down or restarts the device based on user choice.
 ```bash
-python security_script.py shutdown <action>
+python main2.py shutdown <action>
 ```
 **Example:**
 ```bash
-python security_script.py shutdown shutdown
+python main2.py shutdown shutdown
 ```
 or
 ```bash
-python security_script.py shutdown restart
+python main2.py shutdown restart
 ```
 
 #### 10. Display Log
 Displays the current log of activities performed by the security script.
 ```bash
-python security_script.py display_log
+python main2.py display_log
 ```
 
